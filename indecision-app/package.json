@@ -2,15 +2,9 @@
   "name": "indecision-app",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Wian Lloyd",
   "license": "MIT",
-  "scripts": {
-    "babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "server": "live-server public",
-    "start": "npm run babel & npm run server"
-  },
   "dependencies": {
-    "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
