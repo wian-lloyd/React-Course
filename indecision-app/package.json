@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "babel ./src/app.js --out-file=./public/scripts/app.js --presets=env,react --watch",
+    "pg0": "babel ./src/playground/es6-let-const.js --out-file=./public/scripts/app.js --presets=env,react --watch",
+    "pg1": "babel ./src/playground/es6-arrow-function.js --out-file=./public/scripts/app.js --presets=env,react --watch",
+    "pg2": "babel ./src/playground/es6-arrow-function-2.js --out-file=./public/scripts/app.js --presets=env,react --watch",
+    "bi0": "babel ./src/playground/build-it-visible.js --out-file=./public/scripts/app.js --presets=env,react --watch"
+  },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1"
